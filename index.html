@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejejrcicios del DOM</title>
+
+    <link rel="stylesheet" href="ejecicios.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Ejercicios del DOM</h1>
+    </header>
+
+    <section id="section1" class="sec">
+        
+        <h3>seccion 1</h3>
+        <div class="cont-hour">
+            <div class="hour">
+                <h2 id="va-hour"></h2>
+            </div>
+            <div class="buttons">
+                <button class="btn-clock" id="reloj">Reloj</button>
+                <button class="btn-clock" id="det-relo" disabled="true">Detener</button>
+                <button class="btn-clock" id="alarm">Alarma</button>
+                <button class="btn-clock" id="det-alarm" disabled="true">Detener</button>
+            </div>
+        </div>
+        
+        <audio id="sound-alarm" src="Sonido de Alarma o Despertador de Reloj Clasico (Descargar  Download).mp3" loop></audio>
+
+    </section>
+    <section id="section2" class="sec"><h3>seccion 2</h3></section>
+    <section id="section3" class="sec"><h3>seccion 3</h3></section>
+    <section id="section4" class="sec"><h3>seccion 4</h3></section>
+    <section id="section5" class="sec"><h3>seccion 5</h3></section>
+
+    <button id="btn"> menu </button>
+
+    <div class="contenedor" >
+         
+        <a href="#section1" class="sections">seccion1</a>
+        <a href="#section2" class="sections">seccion2</a>
+        <a href="#section3" class="sections">seccion3</a>
+        <a href="#section4" class="sections">seccion4</a>
+        <a href="#section5" class="sections">seccion5</a>
+     
+    </div>
+
+
+    <script src="ejejrcicios.js"></script>
+</body>
+</html>

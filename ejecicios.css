@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* overflow: hidden; */
+    height: 1000px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+    margin-right: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rebeccapurple;
+    border-radius: 8px;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(255, 230, 0);
+    text-align: center;
+    z-index: 2;
+}
+.header h1{
+    font-size: 40px;
+    line-height: 120px;
+}
+
+.header2{
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 230, 0);
+    text-align: center;
+    position: fixed;
+}
+.header2 h1{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.sec{
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: bold;
+    height: 95vh;
+}
+
+.sec h3{
+    margin-top: 10px;
+}
+
+#btn{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 20px;
+    z-index: 2;
+}
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.667);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-1500px);
+    transition: all 800ms ease;
+}
+.translate{
+    transform: translate(0);
+    /* translate: all 500ms ease; */
+}
+.sections{
+    font-size: 30px;
+    line-height: 100px;
+}
+.contenedor a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* color: wheat; */
+    text-align: center;
+    transition: all 500ms ease;
+    width: 100%;
+}
+.contenedor a:hover{
+    background-color: aqua;
+}
+
+audio{
+    display: none;
+}
